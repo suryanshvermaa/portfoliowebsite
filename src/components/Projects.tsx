@@ -5,7 +5,7 @@ import { Github, ExternalLink, Calendar, Code } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: "SCS: Cloud Platform Video Demo",
+      title: "SCS: Cloud Platform",
       description: "Developed a full-stack cloud platform for static website hosting and video transcoding, serving 100+ users. Implemented dynamic container orchestration using AWS ECS and Docker, reducing video processing time by 20%.",
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "AWS", "Docker"],
       date: "July 2024",
