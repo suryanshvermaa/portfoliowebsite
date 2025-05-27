@@ -17,7 +17,7 @@ const Education = () => {
       degree: "UP Board (Class XII)",
       duration: "2021 - 2022",
       grade: "Percentage: 82.8",
-      type: "Higher Secondary",
+      type: "Senior Secondary",
       icon: "📚"
     },
     {

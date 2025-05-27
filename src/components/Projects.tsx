@@ -10,8 +10,8 @@ const Projects = () => {
       techStack: ["React.js", "Node.js", "Express.js", "MongoDB", "AWS", "Docker"],
       date: "July 2024",
       type: "Full Stack Application",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/suryanshvermaa/scsCloud.git",
+      demo: "https://www.linkedin.com/posts/suryanshverma_hey-everyone-i-have-built-my-own-cloud-activity-7223887573729865728-MDNM?utm_source=share&utm_medium=member_android&rcm=ACoAAEZArMoBEv23-MFA49YkPs2pDUKE-UgvhEw",
       highlights: [
         "Served 100+ users with scalable architecture",
         "20% reduction in video processing time",
@@ -24,7 +24,7 @@ const Projects = () => {
       techStack: ["Node.js", "MongoDB", "Docker", "Kubernetes", "AWS EKS"],
       date: "May 2025",
       type: "DevOps Project",
-      github: "#",
+      github: "https://github.com/suryanshvermaa/Two-Tier-Nodejs-MongoDb-App-deployment.git",
       demo: "#",
       highlights: [
         "20% increase in response time",
@@ -38,8 +38,8 @@ const Projects = () => {
       techStack: ["Next.js", "Framer Motion", "Tailwind CSS", "TypeScript"],
       date: "Ongoing",
       type: "Frontend Application",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/HackSlashNITP/Byteverse-25.git",
+      demo: "https://byteverse2k25.vercel.app/",
       highlights: [
         "10% increase in user engagement",
         "90% Lighthouse performance score",
@@ -52,8 +52,8 @@ const Projects = () => {
       techStack: ["Node.js", "Express.js", "MongoDB", "Docker", "NPM"],
       date: "Published",
       type: "CLI Tool",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/suryanshvermaa/create-express-mongo-prod.git",
+      demo: "https://www.npmjs.com/package/create-express-mongo-prod",
       highlights: [
         "300+ downloads in first month",
         "Automated project setup",
@@ -66,8 +66,8 @@ const Projects = () => {
       techStack: ["TypeScript", "Express.js", "JWT", "Node.js"],
       date: "Published",
       type: "NPM Package",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/suryanshvermaa/jwt-auth-pack.git",
+      demo: "https://www.npmjs.com/package/jwt-auth-pack",
       highlights: [
         "TypeScript compatible",
         "Customizable token management",
@@ -80,8 +80,8 @@ const Projects = () => {
       techStack: ["Next.js", "Tailwind CSS", "React", "TypeScript"],
       date: "Current",
       type: "Website Development",
-      github: "#",
-      demo: "#",
+      github: "https://github.com/HackSlashNITP/hackslash-official-site.git",
+      demo: "https://hackslashnitp.vercel.app/",
       highlights: [
         "15% decrease in bounce rate",
         "1000+ hackathon participants",
@@ -91,7 +91,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-20 bg-white delay-450 scroll-smooth">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -120,7 +120,7 @@ const Projects = () => {
                           {project.date}
                         </div>
                       </div>
-                      <h3 className="text-xl font-bold text-slate-800 mb-2">{project.title}</h3>
+                      <h3 className="text-xl font-bold text-slate-800 p-2 mb-2">{project.title}</h3>
                     </div>
                     
                     <div className="flex gap-2 ml-4">
@@ -201,7 +201,7 @@ const Projects = () => {
 
           {/* View More Projects Button */}
           <div className="text-center mt-12">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg"onClick={() => window.open("https://github.com/suryanshvermaa?tab=repositories", "_blank")}>
               View All Projects on GitHub
             </button>
           </div>

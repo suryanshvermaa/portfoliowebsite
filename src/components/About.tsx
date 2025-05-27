@@ -18,31 +18,27 @@ const About = () => {
             {/* Left Column - Text Content */}
             <div className="space-y-6">
               <p className="text-lg text-slate-600 leading-relaxed">
-                I'm a passionate Full Stack Developer currently pursuing Electrical Engineering at 
+                Passionate Full Stack Developer currently pursuing Electrical Engineering at 
                 <span className="font-semibold text-blue-600"> National Institute of Technology Patna</span>. 
                 With a strong academic background (CGPA: 8.3), I've developed expertise in modern web technologies 
                 and cloud solutions.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed">
-                Currently working as a Web Developer at <span className="font-semibold text-blue-600">Tesla</span> 
-                and <span className="font-semibold text-blue-600">Hackslash</span>, where I've built scalable 
-                applications, optimized performance, and led technical initiatives that improved user engagement 
-                and system efficiency.
+                Currently working as a Web Developer at <span className="font-semibold text-blue-600">Tesla </span> 
+                  and <span className="font-semibold text-blue-600">Hackslash</span>
               </p>
 
               <p className="text-lg text-slate-600 leading-relaxed">
-                I have solved 220+ problems on LeetCode and ranked in the top 5% of NPTEL Joy of Computing 
-                using Python. I'm passionate about creating efficient, user-friendly applications and 
-                contributing to open-source projects.
+                I have solved 220+ problems on LeetCode <br />
+                Ranked in the top 5% of NPTEL Joy of Computing using Python.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-4">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2">
-                  <Download size={20} />
+                <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg flex items-center gap-2" onClick={() => window.open("https://drive.google.com/file/d/16tvACD2uHmADKMQz1iBkpWEquG0eHtYx/","_blank")}>
                   Download Resume
                 </button>
-                <button className="bg-slate-200 hover:bg-slate-300 text-slate-800 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105">
+                <button className="bg-slate-200 hover:bg-slate-300 text-slate-800 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105"onClick={() => window.open("#projects","_self")}>
                   View Projects
                 </button>
               </div>

@@ -37,11 +37,10 @@ const Hero = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg" onClick={() => window.location.href = '#projects'}>
               View My Work
             </button>
-            <button className="bg-transparent border-2 border-slate-400 text-slate-300 hover:bg-slate-800 hover:border-slate-300 px-8 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2">
-              <Download size={20} />
+            <button className="bg-transparent border-2 border-slate-400 text-slate-300 hover:bg-slate-800 hover:border-slate-300 px-8 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2"onClick={() => window.open("https://drive.google.com/file/d/16tvACD2uHmADKMQz1iBkpWEquG0eHtYx/","_blank")}>
               Download Resume
             </button>
           </div>
@@ -49,7 +48,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="https://github.com"
+              href="https://github.com/suryanshvermaa"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -57,7 +56,7 @@ const Hero = () => {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/suryanshverma"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-white transition-colors duration-300 hover:scale-110 transform"
@@ -70,7 +69,7 @@ const Hero = () => {
         {/* Scroll Indicator */}
         <button
           onClick={scrollToNext}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-slate-400 hover:text-white transition-all duration-300 animate-bounce"
+          className="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-slate-400 hover:text-white transition-all duration-300 animate-bounce"
         >
           <ChevronDown size={32} />
         </button>

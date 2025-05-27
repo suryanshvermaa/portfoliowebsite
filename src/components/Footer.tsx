@@ -8,12 +8,12 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: "https://github.com",
+      href: "https://github.com/suryanshvermaa",
       label: "GitHub"
     },
     {
       icon: <Linkedin size={20} />,
-      href: "https://linkedin.com",
+      href: "https://linkedin.com/in/suryanshverma",
       label: "LinkedIn"
     },
     {
@@ -114,8 +114,7 @@ const Footer = () => {
 
               {/* Made with Love */}
               <div className="flex items-center space-x-2 text-slate-400">
-                <span>Made with</span>
-                <Heart size={16} className="text-red-500" />
+                <span>Made</span>
                 <span>using React & Tailwind CSS</span>
               </div>
 
